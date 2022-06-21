@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*esto es para el inicio de la pag */
+.page1 {
+ background: linear-gradient(90deg, #A770EF 0%, #CF8BF3 50%, #FDB99B 100%);
+ min-height: 100vh;
+}
+
+#container1 {
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.img-card {
+  position: relative;
+  right: 0;
+}
+
+.texto1 {
+  display: flex;
+  flex-direction: column;
+  left: auto;
+  padding-left: 40px;
+}
+
+.title {
+color:#002B9A;
+font-size: 64px;
+}
+.sub-title {
+color: #FFFFFF;
+font-size: 32px;
+}
+
+/* esto es para el payment de la pag */
+.page2 {
+  background: linear-gradient(90deg, #4284DB 0%, #29EAC4 100%);
+  min-height: 100vh;
+}
+
+#container2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.img2 {
+  padding: relative;
+  right: 0;
+}
+.formulario {
+  padding: 0 15px;
+}
+
+/* esto es para el end de la pag */

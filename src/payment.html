@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>card validation</title>
+    <link rel="stylesheet" href="style.css" />
+    
+</head>
+<body class="page2">  
+    <div id="container2">
+      <div class="formulario">
+        <form id="formulario" >
+          <h2>Validación de datos</h2>
+          <section class="form-tarjeta">
+            <div class="numero">
+              <label for="tarjeta">Número de tarjeta</label>
+              <input type="text" placeholder="#### #### #### ####" id="tarjeta" maxlength= "16"  autocomplete="off" 
+              title="este campo solo acepta números" required value="" />
+            </div> <br>
+            <div class="usuario">
+              <label for="usuario">Usuario</label>
+              <input type="text" placeholder="usuario" id="usuario" autocomplete="off" 
+              title="este campo solo acepta letras" required/>
+            </div><br>
+            <div class="mes-año">
+              <label for="mes">Mes</label>
+              <input type="number" placeholder="mes" id="mes" autocomplete="off" tile="imgresa un dato correcto" required/>
+              <label for="año">Año</label>
+              <input type="number" placeholder="año" id="año" autocomplete="off" tile="imgresa un dato correcto" required/>
+            </div><br>
+            <div class="cvv">
+              <label for="cvv">CVV</label>
+              <input type="number" placeholder="CVV" id="cvv" maxlength= "3" autocomplete="off" 
+              title="escribe un dato correcto" required/>
+            </div><br>
+            <div>
+              <input type="submit" class="boton" value="registrar">
+            </div><br>
+
+          </section>
+          <button class="volver"><a href="./end.html">volver</a></button>
+        </form>
+      </div>
+      <div class="img2">
+        <img src="post.svg" alt="">
+      </div>
+    </div> 
+    <script src="index.js" type="module"></script>
+</body>
+</html>
+
